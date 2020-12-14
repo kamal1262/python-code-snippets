@@ -22,6 +22,7 @@ With all these things I achieve 100% Test Coverage in Python.
 - install coverage with $ pip install coverage
 
 *run*
+```
 $ coverage run app.py  #analyses file
 $ coverage report -m    #outputs anaylsys and shows un covered lines
 $ coverage html           # create a more concise html version of the report
@@ -33,3 +34,4 @@ $ pytest --cov=app
 and modify the test_app.py file until I get 100% code coverage
 I also generate a html version of the report using
 $ pytest --cov=app --cov-report=html
+```
