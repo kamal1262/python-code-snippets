@@ -10,17 +10,18 @@ unittest
 With all these things I achieve 100% Test Coverage in Python.
 100% test coverage is the same as 100% code coverage, but from the perspective of your tests.
 
-Steps in this video
-Create files app.py and test_app.py
-import unittest into test_app.py
-create unit tests for non existent Fibonacci function
-test, test fails
-create Fibonacci function,
-test passes.
-install pytest with $ pip install pytest
-run test using pytest
-install coverage with $ pip install coverage
-run 
+## Steps in this video
+- Create files app.py and test_app.py
+- import unittest into test_app.py
+- create unit tests for non existent Fibonacci function
+- test, test fails
+- create Fibonacci function,
+- test passes.
+- install pytest with $ pip install pytest
+- run test using pytest
+- install coverage with $ pip install coverage
+
+*run*
 $ coverage run app.py  #analyses file
 $ coverage report -m    #outputs anaylsys and shows un covered lines
 $ coverage html           # create a more concise html version of the report
